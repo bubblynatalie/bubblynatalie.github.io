@@ -1,5 +1,5 @@
 /* I am a comment */
 
 function myFunction() {
-    		document.getElementById("demo").innerHTML = "You're quite the curious one, aren't you.";
+    		document.getElementById("demo").innerHTML = "Eventually this will say something important.";
 	}
