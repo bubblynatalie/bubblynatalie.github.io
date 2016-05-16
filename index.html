@@ -14,12 +14,20 @@
 			background-image: url("http://www.psdgraphics.com/file/blank-world-map.jpg");
 			background-size: 120px 90px;
 		}
+		div.transparentbox {
+			margin: 30px;
+    			background-color: #ffffff;
+    			border: 1px solid black;
+    			opacity: 0.6;
+    			filter: alpha(opacity=60); /* For IE8 and earlier */
+		}
 	</style>
 	<head>
 		<script src="myScript.js"></script>
 		<title>Natalie Ethell's CM124 Project: Ancestry Mapping</title>
 	</head>
 <body>
+	<div class="transparentbox">
 	<header>
 		<h2 style="font-size:40px;">Ancestry Mapping</h2>
 		<h3>Natalie Ethell</h3>
@@ -56,5 +64,6 @@
 			This is a button.
 		</button>
 	</footer>
+	</div>
 </body>
 </html>
